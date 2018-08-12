@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Homework 09</title>
+                <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        </head>
+<body>  
+    <h1>Homework 09</h1>
+    <strong>Available Routes:</strong><br/>
+    <a href=\api/v1.0/precipitation\>/api/v1.0/precipitation</a><br/>
+    <ul>
+        <li>Query for the dates and temperature observations from the last year.</li>
+        <li>Convert the query results to a Dictionary using `date` as the key and `tobs` as the value. </li>
+        <li>Return the JSON representation of your dictionary.</li>
+    </ul>
+
+    <a href=\api/v1.0/station\>/api/v1.0/station</a><br/>
+    <ul>
+        <li>Return a JSON list of stations from the dataset.</li>
+    </ul>
+
+    <a href=\api/v1.0/tobs\>/api/v1.0/tobs</a><br/>
+    <ul>
+        <li>Return a JSON list of Temperature Observations (tobs) for the previous year</li>
+    </ul>
+
+
+    <code>/api/v1.0/&lt;start&gt;</code> and <code>/api/v1.0/&lt;start&gt;/&lt;end&gt;</code>
+    <ul>
+        <li>When given the start only, calculate `TMIN`, `TAVG`, and `TMAX` for all dates greater than and equal to the start date.</li>
+        <li>Use the format 'YYYY-MM-DD'</li>
+        <li>Date ranges from 2010-01-01 to 2017-08-23
+    </ul>
+</body>
+</html>

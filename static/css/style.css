@@ -1,0 +1,14 @@
+code {
+    color: blue;
+    background-color: white;
+  }
+
+h1 {
+  color: darkblue;
+  background-color: lightgrey;
+  text-decoration: underline;
+}
+
+body{
+  background-color: lightskyblue
+}
